@@ -3,5 +3,14 @@
     "packages/*"
   ],
   "version": "independent",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish",
+      "registry": "https://npm.pkg.github.com",
+      "allowBranch": "master"
+    }
+  }
 }
