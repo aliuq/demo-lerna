@@ -1,0 +1,22 @@
+{
+  "name": "module-b",
+  "version": "1.0.0",
+  "description": "mldule B",
+  "author": "linka <lqadm@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/module-B.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
